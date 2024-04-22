@@ -1,0 +1,13 @@
+version: 0.2
+
+batch:
+  fast-fail: true
+  build-list:
+    - identifier: build1
+    - identifier: build2
+    - identifier: build3
+
+phases:
+  install:
+    commands:
+      - printenv
