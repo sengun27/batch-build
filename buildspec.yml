@@ -11,3 +11,4 @@ phases:
   install:
     commands:
       - printenv
+      - echo 'modified!'
